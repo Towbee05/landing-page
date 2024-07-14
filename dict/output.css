@@ -1928,12 +1928,8 @@ video {
   background-color: rgb(216 216 216 / var(--tw-bg-opacity));
 }
 
-.bg-custom-image-1{
-  background-image: url("/assets/desktop/image-footer.jpg");
-}
-
 .bg-custom-image-3{
-  background-image: url("/assets/mobile/image-footer.jpg");
+  background-image: url("../assets/mobile/image-footer.jpg");
 }
 
 .decoration-slice{
@@ -2774,7 +2770,7 @@ p{
   }
 
   .xxs\:bg-custom-image-2{
-    background-image: url("/assets/tablet/image-footer.jpg");
+    background-image: url("../assets/tablet/image-footer.jpg");
   }
 
   .xxs\:px-16{
@@ -2822,7 +2818,7 @@ p{
   }
 
   .xs\:bg-custom-image-1{
-    background-image: url("/assets/desktop/image-footer.jpg");
+    background-image: url("../assets/desktop/image-footer.jpg");
   }
 
   .xs\:p-8{

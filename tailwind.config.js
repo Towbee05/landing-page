@@ -44,6 +44,11 @@ module.exports = {
         "xs" : {
           "min" : "1200px"
         }
+      },
+      backgroundImage:{
+        "custom-image-1" : 'url("/assets/desktop/image-footer.jpg")',
+        "custom-image-2" : 'url("/assets/tablet/image-footer.jpg")',
+        "custom-image-3" : 'url("/assets/mobile/image-footer.jpg")',
       }
     },
   },

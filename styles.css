@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 16px;
+    }
+
+    .box{
+        width: 100%;
+        height: calc(84px + 3.5rem);
+        @apply flex justify-center items-center flex-col
+    }
+}
+
+h1{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 900;
+
+}
+
+h3{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.lines{
+    @apply bg-custom-line h-[84px] w-px
+}
+
+.circle{
+    @apply border-custom-line border w-14 h-14 rounded-full flex justify-center items-center
+}
+
+.footer .inner-footer{
+    margin-top: calc((56px / 2) * -1);
+    width: 100%;
+    height: auto;   
+    z-index: -1;
+    background: url("/assets/desktop/image-footer.jpg");
+    background-color: rgba(77, 150, 169, 0.9);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    @apply text-custom-text font-medium
+}
+
+.btn:hover span{
+    @apply text-custom-hover-text
+}
+
+.btn-2:hover span{
+    @apply text-custom-inner-text
+}

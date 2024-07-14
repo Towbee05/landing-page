@@ -46,7 +46,7 @@ h3{
     width: 100%;
     height: auto;   
     z-index: -1;
-    background: url("/assets/desktop/image-footer.jpg");
+    background: url("./assets/mobile/image-footer.jpg");
     background-color: rgba(77, 150, 169, 0.9);
     background-blend-mode: overlay;
     background-repeat: no-repeat;

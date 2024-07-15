@@ -1426,6 +1426,34 @@ video {
   gap: 88px;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
+.gap-\[90px\]{
+  gap: 90px;
+}
+
+.gap-\[16px\]{
+  gap: 16px;
+}
+
+.gap-\[30px\]{
+  gap: 30px;
+}
+
+.gap-\[40px\]{
+  gap: 40px;
+}
+
+.gap-\[50px\]{
+  gap: 50px;
+}
+
+.gap-\[80px\]{
+  gap: 80px;
+}
+
 .gap-x-6{
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
@@ -2814,6 +2842,10 @@ p{
 }
 
 @media (min-width: 1200px){
+  .xs\:flex{
+    display: flex;
+  }
+
   .xs\:grid{
     display: grid;
   }

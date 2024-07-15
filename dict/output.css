@@ -745,12 +745,12 @@ video {
   margin-right: auto;
 }
 
-.mt-2{
-  margin-top: 0.5rem;
-}
-
 .mt-16{
   margin-top: 4rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .box-border{
@@ -1430,34 +1430,6 @@ video {
   gap: 88px;
 }
 
-.gap-5{
-  gap: 1.25rem;
-}
-
-.gap-\[90px\]{
-  gap: 90px;
-}
-
-.gap-\[16px\]{
-  gap: 16px;
-}
-
-.gap-\[30px\]{
-  gap: 30px;
-}
-
-.gap-\[40px\]{
-  gap: 40px;
-}
-
-.gap-\[50px\]{
-  gap: 50px;
-}
-
-.gap-\[80px\]{
-  gap: 80px;
-}
-
 .gap-x-6{
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
@@ -2078,10 +2050,6 @@ video {
      object-fit: scale-down;
 }
 
-.p-4{
-  padding: 1rem;
-}
-
 .px-11{
   padding-left: 2.75rem;
   padding-right: 2.75rem;
@@ -2107,21 +2075,16 @@ video {
   padding-bottom: 22px;
 }
 
-.px-\[450px\]{
-  padding-left: 450px;
-  padding-right: 450px;
-}
-
 .pb-\[72px\]{
   padding-bottom: 72px;
 }
 
-.pt-\[92px\]{
-  padding-top: 92px;
-}
-
 .pt-12{
   padding-top: 3rem;
+}
+
+.pt-\[92px\]{
+  padding-top: 92px;
 }
 
 .text-left{
@@ -2859,16 +2822,20 @@ p{
 }
 
 @media (min-width: 1200px){
-  .xs\:mt-\[110px\]{
-    margin-top: 110px;
-  }
-
   .xs\:mt-16{
     margin-top: 4rem;
   }
 
   .xs\:mt-20{
     margin-top: 5rem;
+  }
+
+  .xs\:mt-\[110px\]{
+    margin-top: 110px;
+  }
+
+  .xs\:mt-\[58px\]{
+    margin-top: 58px;
   }
 
   .xs\:flex{

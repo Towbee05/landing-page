@@ -2074,6 +2074,10 @@ video {
      object-fit: scale-down;
 }
 
+.p-4{
+  padding: 1rem;
+}
+
 .px-11{
   padding-left: 2.75rem;
   padding-right: 2.75rem;
@@ -2099,12 +2103,21 @@ video {
   padding-bottom: 22px;
 }
 
+.px-\[450px\]{
+  padding-left: 450px;
+  padding-right: 450px;
+}
+
 .pb-\[72px\]{
   padding-bottom: 72px;
 }
 
 .pt-\[92px\]{
   padding-top: 92px;
+}
+
+.pt-12{
+  padding-top: 3rem;
 }
 
 .text-left{

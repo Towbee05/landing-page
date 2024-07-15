@@ -880,6 +880,22 @@ video {
   max-width: 1440px;
 }
 
+.max-w-\[1450px\]{
+  max-width: 1450px;
+}
+
+.max-w-\[1460px\]{
+  max-width: 1460px;
+}
+
+.max-w-\[15000px\]{
+  max-width: 15000px;
+}
+
+.max-w-\[1500px\]{
+  max-width: 1500px;
+}
+
 .flex-shrink{
   flex-shrink: 1;
 }
@@ -2141,6 +2157,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-paragraph-big{
+  font-size: 18px;
+  line-height: 26px;
+}
+
 .font-black{
   font-weight: 900;
 }
@@ -2830,13 +2851,26 @@ p{
     padding-right: 165px;
   }
 
-  .xs\:px-\[285px\]{
-    padding-left: 285px;
-    padding-right: 285px;
+  .xs\:px-\[450px\]{
+    padding-left: 450px;
+    padding-right: 450px;
+  }
+
+  .xs\:pb-0{
+    padding-bottom: 0px;
+  }
+
+  .xs\:pt-20{
+    padding-top: 5rem;
   }
 
   .xs\:text-left{
     text-align: left;
+  }
+
+  .xs\:text-bigger{
+    font-size: 64px;
+    line-height: 64px;
   }
 }
 

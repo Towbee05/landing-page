@@ -28,7 +28,9 @@ module.exports = {
       },
       fontSize:{
         "heading" : ["40px", "44px"],
-        "normal" : ["16px", "26px"]
+        "normal" : ["16px", "26px"],
+        "bigger" : ["64px", "64px"],
+        "paragraph-big" : ["18px", "26px"]
       },
       borderRadius:{
         "xxs" : "29px"
